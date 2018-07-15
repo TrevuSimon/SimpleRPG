@@ -28,8 +28,6 @@ namespace SimpleRPG.Entity.Model.Character
         public int Wisdom { get; set; }
         public int Will { get; set; }
 
-        //Stuff
-        public List<Equipment> Equipements{ get; set; }
-        public List<Item.Item> Items{ get; set; }
+       
     }
 }
