@@ -1,6 +1,6 @@
 ﻿namespace SimpleRPG.Entity.Model.Character
 {
-    class Knowlegde
+    public class Knowlegde
     {
     }
 }

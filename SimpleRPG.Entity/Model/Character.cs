@@ -6,6 +6,7 @@ namespace SimpleRPG.Entity.Model.Character
 {
     public class Character
     {
+
         //Sheet
         public int Level { get; set; }
         private BasicSheet Sheet { get; set; }
@@ -13,5 +14,10 @@ namespace SimpleRPG.Entity.Model.Character
         //Stuff
         public List<Equipment> Equipements { get; set; }
         public List<Item.Item> Items { get; set; }
+
+        public Character(BasicSheet sheet)
+        {
+            this.Sheet = sheet;
+        }
     }
 }
