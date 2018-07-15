@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using SimpleRPG.ConsoleAPP.Form;
 
 namespace SimpleRPG.ConsoleAPP.Menus
 {
@@ -23,7 +24,8 @@ namespace SimpleRPG.ConsoleAPP.Menus
                 switch (Option)
                 {
                     case "1":
-                        Console.WriteLine("Yet to implement!");
+                        FormCharacter formCharacter = new FormCharacter();
+                        formCharacter.ShowForm();
                         break;
                     default:
                         Console.WriteLine("Invalid option!");

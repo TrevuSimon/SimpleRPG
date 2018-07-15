@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Data.SqlTypes;
+using SimpleRPG.Common;
 using SimpleRPG.Controller;
 using SimpleRPG.Entity.Model.Character;
 using SimpleRPG.Entity.Model.Character.Fabric;
@@ -45,18 +46,29 @@ namespace SimpleRPG.ConsoleAPP.Form
                 }
             } while (!confirm.Equals("yes"));
 
+            CommonCharacter commonCharacter = new CommonCharacter();
 
+            Console.Clear();
+            if (commonCharacter.CreateCharacter(sheet))
+            {
+                Console.WriteLine("Character create successfully");
+            }
+            else
+            {
+                Console.WriteLine("Couldn't create a character");
+            }
+            Console.ReadKey();
             return true;
         }
 
         private void ShowSheetStatus(BasicSheet sheet)
         {
-            Console.WriteLine("Strengh: {0}",sheet.Strengh);
-            Console.WriteLine("Dexterity: {0}",sheet.Dexterity);
-            Console.WriteLine("Inteligence: {0}",sheet.Inteligence);
-            Console.WriteLine("Endurance: {0}",sheet.Endurance);
-            Console.WriteLine("Wisdom: {0}",sheet.Wisdom);
-            Console.WriteLine("Will: {0}",sheet.Will);
+            Console.WriteLine("Strengh: {0}", sheet.Strengh);
+            Console.WriteLine("Dexterity: {0}", sheet.Dexterity);
+            Console.WriteLine("Inteligence: {0}", sheet.Inteligence);
+            Console.WriteLine("Endurance: {0}", sheet.Endurance);
+            Console.WriteLine("Wisdom: {0}", sheet.Wisdom);
+            Console.WriteLine("Will: {0}", sheet.Will);
         }
     }
 }
