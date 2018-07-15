@@ -5,7 +5,7 @@ using SimpleRPG.Entity.Model.Item.Equipments;
 
 namespace SimpleRPG.Entity.Model.Character
 {
-    class BasicSheet
+    public class BasicSheet
     {
         //General info
         public String Name { get; set; }

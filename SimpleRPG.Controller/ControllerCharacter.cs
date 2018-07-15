@@ -6,6 +6,7 @@ namespace SimpleRPG.Controller
     {
         public bool CreateCharacter()
         {
+
             return true;
         }
     }
