@@ -4,4 +4,9 @@
     <TargetFramework>netcoreapp2.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\SimpleRPG.Common\SimpleRPG.Common.csproj" />
+    <ProjectReference Include="..\SimpleRPG.Entity\SimpleRPG.Entity.csproj" />
+  </ItemGroup>
+
 </Project>

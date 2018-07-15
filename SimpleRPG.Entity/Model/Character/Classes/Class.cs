@@ -4,7 +4,7 @@ using System.Text;
 
 namespace SimpleRPG.Entity.Model.Character.Classes
 {
-    abstract class Class
+    public abstract class Class
     {
     }
 }

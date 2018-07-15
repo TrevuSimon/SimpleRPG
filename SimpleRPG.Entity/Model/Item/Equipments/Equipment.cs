@@ -1,6 +1,6 @@
 ﻿namespace SimpleRPG.Entity.Model.Item.Equipments
 {
-    abstract class Equipment : Item
+    public abstract class Equipment : Item
     {
     }
 }
