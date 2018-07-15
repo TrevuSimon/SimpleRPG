@@ -1,4 +1,5 @@
-﻿using SimpleRPG.Entity.Model.Character;
+﻿using SimpleRPG.Data;
+using SimpleRPG.Entity.Model.Character;
 using SimpleRPG.Entity.Model.Character.Fabric;
 
 namespace SimpleRPG.Common
@@ -12,6 +13,9 @@ namespace SimpleRPG.Common
             NewCharacter newCharacter = new NewCharacter();
             
             Character = newCharacter.Get(sheet);
+            DataCharacter dataCharacter = new DataCharacter();
+            dataCharacter.Save(Character);
+
 
             return true;
         }

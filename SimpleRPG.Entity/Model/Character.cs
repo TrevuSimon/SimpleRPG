@@ -9,7 +9,7 @@ namespace SimpleRPG.Entity.Model.Character
 
         //Sheet
         public int Level { get; set; }
-        private BasicSheet Sheet { get; set; }
+        public BasicSheet Sheet { get; set; }
 
         //Stuff
         public List<Equipment> Equipements { get; set; }
