@@ -4,7 +4,10 @@ using System.Text;
 
 namespace SimpleRPG.ConsoleAPP
 {
-    class Menu
+    interface Menu
     {
+        void IniMenu();
+        void ShowMenu();
+        void ChoseOption();
     }
 }
