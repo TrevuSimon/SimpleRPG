@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using SimpleRPG.ConsoleAPP.Menus;
 
 namespace SimpleRPG.ConsoleAPP
 {
@@ -11,7 +12,9 @@ namespace SimpleRPG.ConsoleAPP
 
         static void Main(string[] args)
         {
-
+            NewMenu newMenu = new NewMenu();
+            Menu menu = newMenu.Get();
+            menu.InitMenu();
         }
     }
 }

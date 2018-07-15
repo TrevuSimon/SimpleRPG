@@ -6,8 +6,6 @@ namespace SimpleRPG.ConsoleAPP
 {
     interface Menu
     {
-        void IniMenu();
-        void ShowMenu();
-        void ChoseOption();
+        void InitMenu();
     }
 }
