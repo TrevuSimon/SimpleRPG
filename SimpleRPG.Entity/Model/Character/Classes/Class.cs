@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace SimpleRPG.Entity.Model
+namespace SimpleRPG.Entity.Model.Character.Classes
 {
-    class Class
+    abstract class Class
     {
     }
 }

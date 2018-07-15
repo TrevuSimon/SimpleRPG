@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace SimpleRPG.Entity.Model.Equipments
+﻿namespace SimpleRPG.Entity.Model.Item.Equipments
 {
     class Gloves : Equipment
     {

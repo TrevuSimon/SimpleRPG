@@ -1,8 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Text;
+using SimpleRPG.Entity.Model.Character.Classes;
+using SimpleRPG.Entity.Model.Item.Equipments;
 
-namespace SimpleRPG.Entity.Model
+namespace SimpleRPG.Entity.Model.Character
 {
     class BasicSheet
     {
@@ -29,6 +30,6 @@ namespace SimpleRPG.Entity.Model
 
         //Stuff
         public List<Equipment> Equipements{ get; set; }
-        public List<Item> Items{ get; set; }
+        public List<Item.Item> Items{ get; set; }
     }
 }
