@@ -4,7 +4,7 @@ using SimpleRPG.Entity.Model.Item.Equipments;
 
 namespace SimpleRPG.Entity.Model.Character
 {
-    class Character
+    public class Character
     {
         //Sheet
         public int Level { get; set; }
