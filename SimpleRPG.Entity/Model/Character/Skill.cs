@@ -1,6 +1,6 @@
 ﻿namespace SimpleRPG.Entity.Model.Character
 {
-    class Skill
+    public class Skill
     {
     }
 }
