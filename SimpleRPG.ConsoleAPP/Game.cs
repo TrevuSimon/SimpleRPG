@@ -12,10 +12,6 @@ namespace SimpleRPG.ConsoleAPP
         static void Main(string[] args)
         {
 
-            Console.WriteLine("Your name:");
-            PlayerName = Console.ReadLine(); 
-
-
         }
     }
 }
